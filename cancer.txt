@@ -1,0 +1,20 @@
+Descricao das variaveis do arquivo CANCER.CSV:
+
+
+	coluna 1: Identificao do paciente.
+	coluna 2: Diagnastico: 
+		1 = Falso-negativo: diagnosticados como nao tendo a 
+			doenca quando na verdade a tinham. 
+		2 = Negativo: diagnosticados como nao tendo a doenca 
+			quando de fato nao a tinham. 
+		3 = Positivo: diagnosticados corretamente como tendo a doenca.
+		4 = Falso-positivo: diagnosticados como tendo a doenca quando na 
+			verdade nao tinham.
+	coluna 3: Idade.
+	coluna 4: Espectro quimico da analise do sangue-alkaliine phosphatose (AKP). 
+	coluna 5: Concentracao de fosfato no sangue (P).
+	coluna 6: Enzima, lactate dehydrogenase (LDH).
+	coluna 7: Albumina (ALB).
+	coluna 8: Nitrogenio na ureia (N).
+	coluna 9: Glicose (GL).
+
