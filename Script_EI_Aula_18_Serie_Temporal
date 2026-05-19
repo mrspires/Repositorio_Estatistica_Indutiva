@@ -1,0 +1,33 @@
+# Série temporal estacionária - exemplo didático
+
+set.seed(123)
+
+# Criando uma série estacionária
+tempo <- 1:100
+serie <- rnorm(100, mean = 50, sd = 5)
+
+# Gráfico
+plot(  
+  tempo, 
+  serie,  
+  type = "l",   
+  main = "Exemplo de Série Temporal Estacionária",  
+  xlab = "Tempo",  
+  ylab = "Valores da Série",  
+  col = "blue",  
+  lwd = 2
+  )
+
+# Linha da média
+abline(h = mean(serie), col = "red", lwd = 2, lty = 2)
+
+# Legenda
+legend(  
+  "topright",  
+  legend = c("Série temporal", "Média constante"),  
+  col = c("blue", "red"),  
+  lty = c(1, 2),  
+  lwd = 2
+  )
+## ## Esse gráfico mostra uma série oscilando ao redor de uma média constante, 
+##sem tendência crescente ou decrescente.
