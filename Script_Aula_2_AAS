@@ -1,0 +1,12 @@
+set.seed(42)
+
+N <- 20000
+n <- 500
+
+amostra <- sample(
+  1:N,
+  size = n,
+  replace = FALSE
+)
+
+amostra
