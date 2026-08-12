@@ -1,3 +1,6 @@
+
+### AAS sem reposição
+
 set.seed(42)
 
 N <- 20000
