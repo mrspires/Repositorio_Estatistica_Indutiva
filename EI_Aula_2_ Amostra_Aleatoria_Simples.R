@@ -1,4 +1,4 @@
-#Aula 2 - Amostra Aleatória Simples
+### Amostra Aleatória Simples
 
 # Definir a semente para reprodutibilidade
 set.seed(42)
