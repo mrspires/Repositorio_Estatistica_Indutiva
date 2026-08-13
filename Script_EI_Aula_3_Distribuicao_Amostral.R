@@ -1,3 +1,5 @@
+# Teorema do Limite Central
+
 # Definir a semente para reprodutibilidade
 set.seed(42)
 
